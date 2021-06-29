@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_TestBench_isim_beh.exe" -prj "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_TestBench_beh.prj" "work.MU0_TestBench" 

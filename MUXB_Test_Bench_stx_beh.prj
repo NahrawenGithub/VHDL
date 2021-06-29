@@ -1,0 +1,2 @@
+vhdl isim_temp "MUXB.vhd"
+vhdl isim_temp "MUXB_Test_Bench.vhd"

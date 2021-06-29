@@ -1,0 +1,50 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Sequenceur.vhd" in Library work.
+Architecture behavioral_sequenceur of Entity sequenceur is up to date.
+Compiling vhdl file "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/AUL.vhd" in Library work.
+Architecture architecture_aul of Entity aul is up to date.
+Compiling vhdl file "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/TriState.vhd" in Library work.
+Architecture architecture_tristate of Entity tristate is up to date.
+Compiling vhdl file "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/PC_reg.vhd" in Library work.
+Architecture behavioral of Entity pc_reg is up to date.
+Compiling vhdl file "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/ACC_REG.vhd" in Library work.
+Architecture architecture_acc_reg of Entity acc_reg is up to date.
+Compiling vhdl file "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/IR_reg.vhd" in Library work.
+Architecture architecture_ir_reg of Entity ir_reg is up to date.
+Compiling vhdl file "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXA.vhd" in Library work.
+Architecture architecture_muxa of Entity muxa is up to date.
+Compiling vhdl file "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXB.vhd" in Library work.
+Architecture architecture_muxb of Entity muxb is up to date.
+Compiling vhdl file "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0.vhd" in Library work.
+Architecture behavioral_mu0 of Entity mu0 is up to date.
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 1.35 secs
+ 
+--> 
+
+Total memory usage is 4484908 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

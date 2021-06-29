@@ -1,0 +1,91 @@
+V3 54
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/ACC_REG.vhd 2020/11/20.04:21:58 P.68d
+EN work/ACC_REG 1615831267 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/ACC_REG.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/ACC_REG/Architecture_ACC_REG 1615831268 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/ACC_REG.vhd \
+      EN work/ACC_REG 1615831267
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/AUL.vhd 2021/02/28.14:39:12 P.68d
+EN work/AUL 1615831261 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/AUL.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611 \
+      PB ieee/STD_LOGIC_UNSIGNED 1370735609
+AR work/AUL/Architecture_AUL 1615831262 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/AUL.vhd \
+      EN work/AUL 1615831261
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/IR_reg.vhd 2021/03/01.12:56:34 P.68d
+EN work/IR_reg 1615831269 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/IR_reg.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/IR_reg/Architecture_IR_reg 1615831270 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/IR_reg.vhd \
+      EN work/IR_reg 1615831269
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd 2021/03/01.12:15:38 P.68d
+EN work/Memory 1615831277 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd \
+      PB ieee/std_logic_1164 1370735607 PB ieee/NUMERIC_STD 1370735611
+AR work/Memory/Architecture_Memory 1615831278 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd \
+      EN work/Memory 1615831277
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0.vhd 2021/02/28.18:40:28 P.68d
+EN work/MU0 1615831275 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/MU0/Behavioral_MU0 1615831276 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0.vhd \
+      EN work/MU0 1615831275 CP Sequenceur CP AUL CP TriState CP PC_reg CP ACC_REG \
+      CP IR_reg CP MUXA CP MUXB
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.vhd 2021/03/01.07:48:46 P.68d
+EN work/MU0_MEM 1615831279 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/MU0_MEM/Behavioral 1615831280 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.vhd \
+      EN work/MU0_MEM 1615831279 CP MU0 CP Memory
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXA.vhd 2020/11/20.02:58:48 P.68d
+EN work/MUXA 1615831271 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXA.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/MUXA/Architecture_MUXA 1615831272 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXA.vhd \
+      EN work/MUXA 1615831271
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXB.vhd 2020/11/20.02:58:30 P.68d
+EN work/MUXB 1615831273 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXB.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/MUXB/Architecture_MUXB 1615831274 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXB.vhd \
+      EN work/MUXB 1615831273
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/PC_reg.vhd 2021/03/01.13:21:00 P.68d
+EN work/PC_reg 1615831265 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/PC_reg.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/PC_reg/Behavioral 1615831266 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/PC_reg.vhd \
+      EN work/PC_reg 1615831265
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Sequenceur.vhd 2021/02/28.14:40:36 P.68d
+EN work/Sequenceur 1615831259 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Sequenceur.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/Sequenceur/Behavioral_sequenceur 1615831260 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Sequenceur.vhd \
+      EN work/Sequenceur 1615831259
+FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/TriState.vhd 2020/11/20.02:58:16 P.68d
+EN work/TriState 1615831263 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/TriState.vhd \
+      PB ieee/std_logic_1164 1370735607
+AR work/TriState/Architecture_TriState 1615831264 \
+      FL /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/TriState.vhd \
+      EN work/TriState 1615831263
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/ACC_REG.vhd" 2020/11/20.13:21:58 P.68d
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/AUL.vhd" 2021/02/28.23:39:13 P.68d
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/IR_reg.vhd" 2021/03/01.21:56:34 P.68d
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Memory.vhd" 2021/03/01.21:15:38 P.68d
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0.vhd" 2021/03/01.03:40:28 P.68d
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0_MEM.vhd" 2021/03/01.16:48:47 P.68d
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXA.vhd" 2020/11/20.11:58:49 P.68d
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXB.vhd" 2020/11/20.11:58:31 P.68d
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/PC_reg.vhd" 2021/03/01.22:21:01 P.68d
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Sequenceur.vhd" 2021/02/28.23:40:36 P.68d
+FL "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/TriState.vhd" 2020/11/20.11:58:16 P.68d

@@ -1,0 +1,2 @@
+vhdl isim_temp "TriState.vhd"
+vhdl isim_temp "Test_Bench_TriState.vhd"

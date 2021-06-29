@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MU0_MEM</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0_MEM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MU0_MEM/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0_MEM.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Memory</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Memory.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Memory/Architecture_Memory</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Memory.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MU0</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MU0/Behavioral_MU0</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ACC_REG</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/ACC_REG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/ACC_REG.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/ACC_REG/Architecture_ACC_REG</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/ACC_REG.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/ACC_REG.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/AUL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/AUL.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/AUL.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/AUL/Architecture_AUL</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/AUL.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/AUL.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/IR_reg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/IR_reg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/IR_reg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/IR_reg/Architecture_IR_reg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/IR_reg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/IR_reg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUXA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUXA/Architecture_MUXA</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXA.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXA.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUXB</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXB.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXB.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/MUXB/Architecture_MUXB</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXB.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXB.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PC_reg</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/PC_reg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/PC_reg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/PC_reg/Behavioral</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/PC_reg.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/PC_reg.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Sequenceur</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Sequenceur.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Sequenceur.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/Sequenceur/Behavioral_sequenceur</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Sequenceur.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Sequenceur.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/TriState</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/TriState.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/TriState.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="new" >Unit <arg fmt="%s" index="1">work/TriState/Architecture_TriState</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/TriState.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/TriState.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd</arg>&quot; line <arg fmt="%d" index="2">62</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="new" >Contents of array &lt;<arg fmt="%s" index="1">memory</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="790" delta="new" >&quot;<arg fmt="%s" index="1">/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd</arg>&quot; line <arg fmt="%d" index="2">67</arg>: Index value(s) does not match array range, simulation mismatch.
+</msg>
+
+<msg type="info" file="Xst" num="1433" delta="new" >Contents of array &lt;<arg fmt="%s" index="1">memory</arg>&gt; may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="new" >Input &lt;<arg fmt="%s" index="1">addr_bus&lt;11:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="1780" delta="new" >Signal &lt;<arg fmt="%s" index="1">interne</arg>&gt; is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="new" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Data_out_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">instance_Acc_reg</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Acc15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3218" delta="new" >HDL ADVISOR - The RAM &lt;<arg fmt="%s" index="1">Mram_memory</arg>&gt; will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="new" >The FF/Latch &lt;<arg fmt="%s" index="1">Data_out_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">ACC_REG</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;Acc15&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="2040" delta="new" >Unit <arg fmt="%s" index="1">MU0_MEM</arg>: <arg fmt="%d" index="2">16</arg> multi-source signals are replaced by logic (pull-up <arg fmt="%s" index="3">yes</arg>): </msg>
+
+</messages>
+

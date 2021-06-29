@@ -1,0 +1,40 @@
+Running: /opt/Xilinx/14.6/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -o /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_TestBench_isim_beh.exe -prj /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_TestBench_beh.prj work.MU0_TestBench 
+ISim P.68d (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/TriState.vhd" into library work
+Parsing VHDL file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Sequenceur.vhd" into library work
+Parsing VHDL file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/PC_reg.vhd" into library work
+Parsing VHDL file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXB.vhd" into library work
+Parsing VHDL file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXA.vhd" into library work
+Parsing VHDL file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/IR_reg.vhd" into library work
+Parsing VHDL file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/AUL.vhd" into library work
+Parsing VHDL file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/ACC_REG.vhd" into library work
+Parsing VHDL file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0.vhd" into library work
+Parsing VHDL file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_TestBench.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 86484 KB
+Fuse CPU Usage: 870 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral_sequenceur of entity Sequenceur [sequenceur_default]
+Compiling architecture architecture_aul of entity AUL [aul_default]
+Compiling architecture architecture_tristate of entity TriState [tristate_default]
+Compiling architecture behavioral of entity PC_reg [pc_reg_default]
+Compiling architecture architecture_acc_reg of entity ACC_REG [acc_reg_default]
+Compiling architecture architecture_ir_reg of entity IR_reg [ir_reg_default]
+Compiling architecture architecture_muxa of entity MUXA [muxa_default]
+Compiling architecture architecture_muxb of entity MUXB [muxb_default]
+Compiling architecture behavioral_mu0 of entity MU0 [mu0_default]
+Compiling architecture behavior of entity mu0_testbench
+Time Resolution for simulation is 1ps.
+Compiled 24 VHDL Units
+Built simulation executable /home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_TestBench_isim_beh.exe
+Fuse Memory Usage: 1186832 KB
+Fuse CPU Usage: 970 ms
+GCC CPU Usage: 1560 ms

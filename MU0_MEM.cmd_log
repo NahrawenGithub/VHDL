@@ -1,0 +1,9 @@
+xst -intstyle ise -ifn "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0_MEM.xst" -ofn "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0_MEM.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 "MU0_MEM.ngc" MU0_MEM.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o MU0_MEM_map.ncd MU0_MEM.ngd MU0_MEM.pcf 
+par -w -intstyle ise -ol high -t 1 MU0_MEM_map.ncd MU0_MEM.ncd MU0_MEM.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MU0_MEM.twx MU0_MEM.ncd -o MU0_MEM.twr MU0_MEM.pcf 
+vhdtdtfi -lib work TriState.vhd -lib work Sequenceur.vhd -lib work PC_reg.vhd -lib work MUXB.vhd -lib work MUXA.vhd -lib work IR_reg.vhd -lib work AUL.vhd -lib work ACC_REG.vhd -lib work MU0.vhd -lib work Memory.vhd -lib work MU0_MEM.vhd -prj ProjectUAL -o MU0_MEM.spl -module MU0_MEM -template C:/Xilinx/14.6/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MU0_MEM.spl {C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0_MEM.sym} 
+xst -intstyle ise -ifn "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0_MEM.xst" -ofn "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0_MEM.syr" 
+xst -intstyle ise -ifn "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.xst" -ofn "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.syr" 

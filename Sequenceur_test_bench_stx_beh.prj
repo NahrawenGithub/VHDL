@@ -1,0 +1,2 @@
+vhdl isim_temp "Sequenceur.vhd"
+vhdl isim_temp "Sequenceur_test_bench.vhd"

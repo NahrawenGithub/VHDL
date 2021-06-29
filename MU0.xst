@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/xst"
+elaborate
+-ifn MU0.prj
+-ifmt mixed

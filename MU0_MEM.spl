@@ -1,0 +1,7 @@
+[Inputs]
+clk
+reset
+[Outputs]
+[BiDir]
+=data_bus[15:0]=
+=addr_bus[11:0]=

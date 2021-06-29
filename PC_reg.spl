@@ -1,0 +1,8 @@
+[Inputs]
+clk
+raz
+load
+=data_in[11:0]=
+[Outputs]
+=data_out[11:0]=
+[BiDir]

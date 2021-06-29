@@ -1,0 +1,664 @@
+Release 14.6 - xst P.68d (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> 
+Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.04 secs
+ 
+--> 
+Reading design: MU0_MEM.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MU0_MEM.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MU0_MEM"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : MU0_MEM
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/MU0_MEM is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0_MEM.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.vhd".
+WARNING:HDLParsers:3607 - Unit work/MU0_MEM/Behavioral is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0_MEM.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.vhd".
+WARNING:HDLParsers:3607 - Unit work/Memory is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Memory.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd".
+WARNING:HDLParsers:3607 - Unit work/Memory/Architecture_Memory is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Memory.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd".
+WARNING:HDLParsers:3607 - Unit work/MU0 is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0.vhd".
+WARNING:HDLParsers:3607 - Unit work/MU0/Behavioral_MU0 is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MU0.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0.vhd".
+WARNING:HDLParsers:3607 - Unit work/ACC_REG is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/ACC_REG.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/ACC_REG.vhd".
+WARNING:HDLParsers:3607 - Unit work/ACC_REG/Architecture_ACC_REG is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/ACC_REG.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/ACC_REG.vhd".
+WARNING:HDLParsers:3607 - Unit work/AUL is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/AUL.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/AUL.vhd".
+WARNING:HDLParsers:3607 - Unit work/AUL/Architecture_AUL is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/AUL.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/AUL.vhd".
+WARNING:HDLParsers:3607 - Unit work/IR_reg is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/IR_reg.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/IR_reg.vhd".
+WARNING:HDLParsers:3607 - Unit work/IR_reg/Architecture_IR_reg is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/IR_reg.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/IR_reg.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUXA is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXA.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXA.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUXA/Architecture_MUXA is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXA.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXA.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUXB is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXB.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXB.vhd".
+WARNING:HDLParsers:3607 - Unit work/MUXB/Architecture_MUXB is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/MUXB.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXB.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_reg is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/PC_reg.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/PC_reg.vhd".
+WARNING:HDLParsers:3607 - Unit work/PC_reg/Behavioral is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/PC_reg.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/PC_reg.vhd".
+WARNING:HDLParsers:3607 - Unit work/Sequenceur is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Sequenceur.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Sequenceur.vhd".
+WARNING:HDLParsers:3607 - Unit work/Sequenceur/Behavioral_sequenceur is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/Sequenceur.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Sequenceur.vhd".
+WARNING:HDLParsers:3607 - Unit work/TriState is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/TriState.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/TriState.vhd".
+WARNING:HDLParsers:3607 - Unit work/TriState/Architecture_TriState is now defined in a different file.  It was defined in "C:/Users/Joker/Desktop/if4/TP architecture/ProjectUAL/TriState.vhd", and is now defined in "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/TriState.vhd".
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Sequenceur.vhd" in Library work.
+Entity <sequenceur> compiled.
+Entity <sequenceur> (Architecture <behavioral_sequenceur>) compiled.
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/AUL.vhd" in Library work.
+Architecture architecture_aul of Entity aul is up to date.
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/TriState.vhd" in Library work.
+Architecture architecture_tristate of Entity tristate is up to date.
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/PC_reg.vhd" in Library work.
+Architecture behavioral of Entity pc_reg is up to date.
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/ACC_REG.vhd" in Library work.
+Entity <acc_reg> compiled.
+Entity <acc_reg> (Architecture <architecture_acc_reg>) compiled.
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/IR_reg.vhd" in Library work.
+Architecture architecture_ir_reg of Entity ir_reg is up to date.
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXA.vhd" in Library work.
+Architecture architecture_muxa of Entity muxa is up to date.
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXB.vhd" in Library work.
+Entity <muxb> compiled.
+Entity <muxb> (Architecture <architecture_muxb>) compiled.
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0.vhd" in Library work.
+Entity <mu0> compiled.
+Entity <mu0> (Architecture <behavioral_mu0>) compiled.
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd" in Library work.
+Entity <memory> compiled.
+Entity <memory> (Architecture <architecture_memory>) compiled.
+Compiling vhdl file "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.vhd" in Library work.
+Entity <mu0_mem> compiled.
+Entity <mu0_mem> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <MU0_MEM> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <MU0> in library <work> (architecture <behavioral_mu0>).
+
+Analyzing hierarchy for entity <Memory> in library <work> (architecture <architecture_memory>).
+
+Analyzing hierarchy for entity <Sequenceur> in library <work> (architecture <behavioral_sequenceur>).
+
+Analyzing hierarchy for entity <AUL> in library <work> (architecture <architecture_aul>).
+
+Analyzing hierarchy for entity <TriState> in library <work> (architecture <architecture_tristate>).
+
+Analyzing hierarchy for entity <PC_reg> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <ACC_REG> in library <work> (architecture <architecture_acc_reg>).
+
+Analyzing hierarchy for entity <IR_reg> in library <work> (architecture <architecture_ir_reg>).
+
+Analyzing hierarchy for entity <MUXA> in library <work> (architecture <architecture_muxa>).
+
+Analyzing hierarchy for entity <MUXB> in library <work> (architecture <architecture_muxb>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <MU0_MEM> in library <work> (Architecture <behavioral>).
+Entity <MU0_MEM> analyzed. Unit <MU0_MEM> generated.
+
+Analyzing Entity <MU0> in library <work> (Architecture <behavioral_mu0>).
+Entity <MU0> analyzed. Unit <MU0> generated.
+
+Analyzing Entity <Sequenceur> in library <work> (Architecture <behavioral_sequenceur>).
+Entity <Sequenceur> analyzed. Unit <Sequenceur> generated.
+
+Analyzing Entity <AUL> in library <work> (Architecture <architecture_aul>).
+Entity <AUL> analyzed. Unit <AUL> generated.
+
+Analyzing Entity <TriState> in library <work> (Architecture <architecture_tristate>).
+Entity <TriState> analyzed. Unit <TriState> generated.
+
+Analyzing Entity <PC_reg> in library <work> (Architecture <behavioral>).
+Entity <PC_reg> analyzed. Unit <PC_reg> generated.
+
+Analyzing Entity <ACC_REG> in library <work> (Architecture <architecture_acc_reg>).
+Entity <ACC_REG> analyzed. Unit <ACC_REG> generated.
+
+Analyzing Entity <IR_reg> in library <work> (Architecture <architecture_ir_reg>).
+Entity <IR_reg> analyzed. Unit <IR_reg> generated.
+
+Analyzing Entity <MUXA> in library <work> (Architecture <architecture_muxa>).
+Entity <MUXA> analyzed. Unit <MUXA> generated.
+
+Analyzing Entity <MUXB> in library <work> (Architecture <architecture_muxb>).
+Entity <MUXB> analyzed. Unit <MUXB> generated.
+
+Analyzing Entity <Memory> in library <work> (Architecture <architecture_memory>).
+WARNING:Xst:790 - "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd" line 62: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <memory> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+WARNING:Xst:790 - "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd" line 67: Index value(s) does not match array range, simulation mismatch.
+INFO:Xst:1433 - Contents of array <memory> may be accessed with an index that exceeds the array size. This could cause simulation mismatch.
+Entity <Memory> analyzed. Unit <Memory> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <Memory>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Memory.vhd".
+WARNING:Xst:647 - Input <addr_bus<11:4>> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+    Found 16x16-bit single-port RAM <Mram_memory> for signal <memory>.
+    Found 16-bit tristate buffer for signal <data_bus>.
+    Summary:
+	inferred   1 RAM(s).
+	inferred  16 Tristate(s).
+Unit <Memory> synthesized.
+
+
+Synthesizing Unit <Sequenceur>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/Sequenceur.vhd".
+    Found finite state machine <FSM_0> for signal <etat_cr>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 15                                             |
+    | Inputs             | 11                                             |
+    | Outputs            | 4                                              |
+    | Clock              | clk                       (rising_edge)        |
+    | Reset              | reset                     (positive)           |
+    | Reset type         | asynchronous                                   |
+    | Reset State        | init                                           |
+    | Power Up State     | init                                           |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <Sequenceur> synthesized.
+
+
+Synthesizing Unit <AUL>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/AUL.vhd".
+    Found 16-bit adder for signal <S$addsub0000>.
+    Found 16-bit xor2 for signal <S$xor0000> created at line 53.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+Unit <AUL> synthesized.
+
+
+Synthesizing Unit <TriState>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/TriState.vhd".
+    Found 16-bit tristate buffer for signal <data_out>.
+    Summary:
+	inferred  16 Tristate(s).
+Unit <TriState> synthesized.
+
+
+Synthesizing Unit <PC_reg>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/PC_reg.vhd".
+    Found 12-bit register for signal <data_out>.
+    Summary:
+	inferred  12 D-type flip-flop(s).
+Unit <PC_reg> synthesized.
+
+
+Synthesizing Unit <ACC_REG>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/ACC_REG.vhd".
+    Register <q_reg> equivalent to <Data_out> has been removed
+    Found 1-bit register for signal <Acc15>.
+    Found 16-bit register for signal <Data_out>.
+    Summary:
+	inferred  17 D-type flip-flop(s).
+Unit <ACC_REG> synthesized.
+
+
+Synthesizing Unit <IR_reg>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/IR_reg.vhd".
+WARNING:Xst:1780 - Signal <interne> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Found 12-bit register for signal <data_out>.
+    Found 4-bit register for signal <op_code>.
+    Summary:
+	inferred  16 D-type flip-flop(s).
+Unit <IR_reg> synthesized.
+
+
+Synthesizing Unit <MUXA>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXA.vhd".
+Unit <MUXA> synthesized.
+
+
+Synthesizing Unit <MUXB>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MUXB.vhd".
+Unit <MUXB> synthesized.
+
+
+Synthesizing Unit <MU0>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0.vhd".
+Unit <MU0> synthesized.
+
+
+Synthesizing Unit <MU0_MEM>.
+    Related source file is "/home/nahrawene/Downloads/ProjectUAL-20210315T163734Z-001/ProjectUAL/MU0_MEM.vhd".
+Unit <MU0_MEM> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# RAMs                                                 : 1
+ 16x16-bit single-port RAM                             : 1
+# Adders/Subtractors                                   : 1
+ 16-bit adder                                          : 1
+# Registers                                            : 5
+ 1-bit register                                        : 1
+ 12-bit register                                       : 2
+ 16-bit register                                       : 1
+ 4-bit register                                        : 1
+# Tristates                                            : 2
+ 16-bit tristate buffer                                : 2
+# Xors                                                 : 1
+ 16-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <instance_MU0/instance_sequenceur/etat_cr/FSM> on signal <etat_cr[1:2]> with user encoding.
+---------------------
+ State   | Encoding
+---------------------
+ init    | 00
+ fetch   | 01
+ execute | 10
+ stop    | 11
+---------------------
+INFO:Xst:2261 - The FF/Latch <Data_out_15> in Unit <instance_Acc_reg> is equivalent to the following FF/Latch, which will be removed : <Acc15> 
+
+Synthesizing (advanced) Unit <Memory>.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_memory> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+    -----------------------------------------------------------------------
+    | ram_type           | Distributed                         |          |
+    -----------------------------------------------------------------------
+    | Port A                                                              |
+    |     aspect ratio   | 16-word x 16-bit                    |          |
+    |     clkA           | connected to signal <clk>           | rise     |
+    |     weA            | connected to signal <_and0000>      | high     |
+    |     addrA          | connected to signal <addr_bus>      |          |
+    |     diA            | connected to signal <data_bus>      |          |
+    |     doA            | connected to internal node          |          |
+    -----------------------------------------------------------------------
+Unit <Memory> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 1
+# RAMs                                                 : 1
+ 16x16-bit single-port distributed RAM                 : 1
+# Adders/Subtractors                                   : 1
+ 16-bit adder                                          : 1
+# Registers                                            : 45
+ Flip-Flops                                            : 45
+# Xors                                                 : 1
+ 16-bit xor2                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+INFO:Xst:2261 - The FF/Latch <Data_out_15> in Unit <ACC_REG> is equivalent to the following FF/Latch, which will be removed : <Acc15> 
+WARNING:Xst:2040 - Unit MU0_MEM: 16 multi-source signals are replaced by logic (pull-up yes): data_bus<0>_MLTSRCEDGE, data_bus<10>_MLTSRCEDGE, data_bus<11>_MLTSRCEDGE, data_bus<12>_MLTSRCEDGE, data_bus<13>_MLTSRCEDGE, data_bus<14>_MLTSRCEDGE, data_bus<15>_MLTSRCEDGE, data_bus<1>_MLTSRCEDGE, data_bus<2>_MLTSRCEDGE, data_bus<3>_MLTSRCEDGE, data_bus<4>_MLTSRCEDGE, data_bus<5>_MLTSRCEDGE, data_bus<6>_MLTSRCEDGE, data_bus<7>_MLTSRCEDGE, data_bus<8>_MLTSRCEDGE, data_bus<9>_MLTSRCEDGE.
+
+Optimizing unit <MU0_MEM> ...
+
+Optimizing unit <Sequenceur> ...
+
+Optimizing unit <AUL> ...
+
+Optimizing unit <PC_reg> ...
+
+Optimizing unit <ACC_REG> ...
+
+Optimizing unit <IR_reg> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block MU0_MEM, actual ratio is 2.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 46
+ Flip-Flops                                            : 46
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MU0_MEM.ngr
+Top Level Output File Name         : MU0_MEM
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 30
+
+Cell Usage :
+# BELS                             : 246
+#      GND                         : 1
+#      INV                         : 4
+#      LUT2                        : 13
+#      LUT2_L                      : 1
+#      LUT3                        : 17
+#      LUT3_D                      : 3
+#      LUT3_L                      : 8
+#      LUT4                        : 126
+#      LUT4_D                      : 7
+#      LUT4_L                      : 21
+#      MUXCY                       : 15
+#      MUXF5                       : 13
+#      VCC                         : 1
+#      XORCY                       : 16
+# FlipFlops/Latches                : 46
+#      FDC                         : 2
+#      FDCE                        : 28
+#      FDRE                        : 16
+# RAMS                             : 16
+#      RAM16X1S                    : 16
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 29
+#      IBUF                        : 1
+#      IOBUF                       : 16
+#      OBUF                        : 12
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                      114  out of   4656     2%  
+ Number of Slice Flip Flops:             46  out of   9312     0%  
+ Number of 4 input LUTs:                216  out of   9312     2%  
+    Number used as logic:               200
+    Number used as RAMs:                 16
+ Number of IOs:                          30
+ Number of bonded IOBs:                  30  out of    232    12%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+clk                                | BUFGP                  | 62    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+----------------------------------------------------------------------+----------------------------------------------+-------+
+Control Signal                                                        | Buffer(FF name)                              | Load  |
+----------------------------------------------------------------------+----------------------------------------------+-------+
+instance_MU0/raz(instance_MU0/instance_sequenceur/etat_cr_FSM_Out01:O)| NONE(instance_MU0/instance_IR_reg/data_out_0)| 28    |
+reset                                                                 | IBUF                                         | 2     |
+----------------------------------------------------------------------+----------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 12.187ns (Maximum Frequency: 82.056MHz)
+   Minimum input arrival time before clock: 7.419ns
+   Maximum output required time after clock: 13.763ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 12.187ns (frequency: 82.056MHz)
+  Total number of paths / destination ports: 67760 / 170
+-------------------------------------------------------------------------
+Delay:               12.187ns (Levels of Logic = 20)
+  Source:            instance_MU0/instance_Acc_reg/Data_out_15 (FF)
+  Destination:       instance_MU0/instance_Acc_reg/Data_out_15 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: instance_MU0/instance_Acc_reg/Data_out_15 to instance_MU0/instance_Acc_reg/Data_out_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            10   0.591   0.886  instance_MU0/instance_Acc_reg/Data_out_15 (instance_MU0/instance_Acc_reg/Data_out_15)
+     LUT4:I3->O            1   0.704   0.424  instance_MU0/instance_Acc_reg/AccZ_cmp_eq000062 (instance_MU0/instance_Acc_reg/AccZ_cmp_eq000062)
+     LUT4:I3->O            4   0.704   0.591  instance_MU0/instance_Acc_reg/AccZ_cmp_eq000076 (instance_MU0/accz)
+     LUT4_D:I3->O         18   0.704   1.072  instance_MU0/instance_sequenceur/pc_ld2 (instance_MU0/instance_sequenceur/N10)
+     LUT4:I3->O           34   0.704   1.267  instance_MU0/instance_MUXA/s<2>1 (addr_bus_2_OBUF)
+     LUT4:I3->O            0   0.704   0.000  instance_MU0/instance_AUL/S_mux0000<2>1 (instance_MU0/instance_AUL/S_mux0000<2>)
+     MUXCY:DI->O           1   0.888   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<2> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<3> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<4> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<5> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<6> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<7> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<8> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<9> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<10> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<11> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<12> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<13> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<13>)
+     MUXCY:CI->O           0   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<14> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.424  instance_MU0/instance_AUL/Madd_S_addsub0000_xor<15> (instance_MU0/instance_AUL/S_addsub0000<15>)
+     LUT4:I3->O            1   0.704   0.000  instance_MU0/instance_AUL/S<15>41 (instance_MU0/alu_out<15>)
+     FDRE:D                    0.308          instance_MU0/instance_Acc_reg/Data_out_15
+    ----------------------------------------
+    Total                     12.187ns (7.523ns logic, 4.664ns route)
+                                       (61.7% logic, 38.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 492 / 60
+-------------------------------------------------------------------------
+Offset:              7.419ns (Levels of Logic = 20)
+  Source:            data_bus<0> (PAD)
+  Destination:       instance_MU0/instance_Acc_reg/Data_out_15 (FF)
+  Destination Clock: clk rising
+
+  Data Path: data_bus<0> to instance_MU0/instance_Acc_reg/Data_out_15
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IOBUF:IO->O           5   1.218   0.808  data_bus_0_IOBUF (N55)
+     LUT4:I0->O            1   0.704   0.455  instance_MU0/instance_AUL/S_mux0000<0>1 (instance_MU0/instance_AUL/S_mux0000<0>)
+     LUT3:I2->O            1   0.704   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_lut<0> (instance_MU0/instance_AUL/Madd_S_addsub0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<0> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<1> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<2> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<3> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<4> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<5> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<6> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<7> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<8> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<9> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<10> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<11> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<12> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<13> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<13>)
+     MUXCY:CI->O           0   0.059   0.000  instance_MU0/instance_AUL/Madd_S_addsub0000_cy<14> (instance_MU0/instance_AUL/Madd_S_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.424  instance_MU0/instance_AUL/Madd_S_addsub0000_xor<15> (instance_MU0/instance_AUL/S_addsub0000<15>)
+     LUT4:I3->O            1   0.704   0.000  instance_MU0/instance_AUL/S<15>41 (instance_MU0/alu_out<15>)
+     FDRE:D                    0.308          instance_MU0/instance_Acc_reg/Data_out_15
+    ----------------------------------------
+    Total                      7.419ns (5.732ns logic, 1.687ns route)
+                                       (77.3% logic, 22.7% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'clk'
+  Total number of paths / destination ports: 2857 / 28
+-------------------------------------------------------------------------
+Offset:              13.763ns (Levels of Logic = 7)
+  Source:            instance_MU0/instance_Acc_reg/Data_out_15 (FF)
+  Destination:       data_bus<15> (PAD)
+  Source Clock:      clk rising
+
+  Data Path: instance_MU0/instance_Acc_reg/Data_out_15 to data_bus<15>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDRE:C->Q            10   0.591   0.886  instance_MU0/instance_Acc_reg/Data_out_15 (instance_MU0/instance_Acc_reg/Data_out_15)
+     LUT4:I3->O            1   0.704   0.424  instance_MU0/instance_Acc_reg/AccZ_cmp_eq000062 (instance_MU0/instance_Acc_reg/AccZ_cmp_eq000062)
+     LUT4:I3->O            4   0.704   0.591  instance_MU0/instance_Acc_reg/AccZ_cmp_eq000076 (instance_MU0/accz)
+     LUT4_D:I3->O         18   0.704   1.072  instance_MU0/instance_sequenceur/pc_ld2 (instance_MU0/instance_sequenceur/N10)
+     LUT4:I3->O           34   0.704   1.263  instance_MU0/instance_MUXA/s<2>1 (addr_bus_2_OBUF)
+     RAM16X1S:A2->O        1   1.225   0.499  instance_MEMORY/Mram_memory1 (instance_MEMORY/_varindex0000<0>)
+     LUT4:I1->O            1   0.704   0.420  data_bus<0>_MLTSRCEDGELogicTrst (data_bus<0>_MLTSRCEDGE)
+     IOBUF:I->IO               3.272          data_bus_0_IOBUF (data_bus<0>)
+    ----------------------------------------
+    Total                     13.763ns (8.608ns logic, 5.155ns route)
+                                       (62.5% logic, 37.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 5.00 secs
+Total CPU time to Xst completion: 4.80 secs
+ 
+--> 
+
+
+Total memory usage is 526016 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   27 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
+
